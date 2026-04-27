@@ -1,0 +1,39 @@
+ei	N CTs	N variants g	N PMIDs Chemicals	Gene	pLI	Gene Full Name	First Ref.	Last Ref.	N Chemicals	N PMIDs	score	N diseases g	My Score	DSI g	DPI g	N variants gda
+0.9876543209876543	0	544	0	CHRNE	8.4301E-22	cholinergic receptor nicotinic epsilon subunit	1993	2024	0	57	0.8	14		0.59	0.79	197
+0.9615384615384616	0	959	0	AGRN	1.4649E-20	agrin	2014	2017	0	2	0.8	7		0.51	0.83	1
+1.0	0	1032	0	SCN4A	1.9281E-10	sodium voltage-gated channel alpha subunit 4	2003	2003	0	1	0.8	46		0.52	0.83	1
+0.8461538461538461	0	244	0	CHRNB1	9.8096E-14	cholinergic receptor nicotinic beta 1 subunit			0	0	0.8	5		0.55	0.79	1
+0.9661016949152542	0	294	0	RAPSN	6.2782E-10	receptor associated protein of the synapse	2002	2023	0	25	0.75	13		0.57	0.83	109
+0.9666666666666667	0	414	0	DOK7	2.2571E-14	docking protein 7	2006	2024	0	21	0.75	8		0.58	0.75	18
+1.0	0	299	0	COLQ	5.9959E-12	collagen like tail subunit of asymmetric acetylcholinesterase	1998	2024	0	20	0.75	5		0.61	0.79	21
+0.972972972972973	0	363	0	CHAT	9.5799E-17	choline O-acetyltransferase	2001	2022	0	13	0.75	34		0.53	0.88	15
+0.9354838709677419	0	278	0	GFPT1	0.022094	glutamine--fructose-6-phosphate transaminase 1	2011	2023	0	13	0.75	9		0.55	0.79	16
+0.9722222222222222	0	319	0	MUSK	4.7518E-10	muscle associated receptor tyrosine kinase			0	0	0.75	12		0.55	0.83	2
+0.9090909090909091	0	231	0	CHRNA1	4.9493E-9	cholinergic receptor nicotinic alpha 1 subunit			0	0	0.75	19		0.58	0.79	39
+1.0	0	176	0	DPAGT1	2.7093E-5	dolichyl-phosphate N-acetylglucosaminephosphotransferase 1			0	0	0.7	10		0.55	0.83	0
+1.0	0	169	0	GMPPB	2.0044E-12	GDP-mannose pyrophosphorylase B			0	0	0.7	21		0.55	0.83	0
+1.0	0	43	0	VAMP1	1.5152E-4	vesicle associated membrane protein 1			0	0	0.7	6		0.61	0.75	1
+1.0	0	37	0	SYT2	0.6857	synaptotagmin 2			0	0	0.7	8		0.58	0.83	0
+1.0	0	15	0	SLC18A3	6.4631E-7	solute carrier family 18 member A3			0	0	0.65	4		0.55	0.83	0
+1.0	0	304	0	CHRND	4.8403E-9	cholinergic receptor nicotinic delta subunit			0	0	0.65	16		0.62	0.63	59
+1.0	0	556	0	LRP4	0.0096192	LDL receptor related protein 4			0	0	0.65	15		0.5	0.83	0
+1.0	0	47	0	MYO9A	1.0	myosin IXA			0	0	0.65	7		0.6	0.88	0
+1.0	0	20	0	SLC25A1	2.3292E-7	solute carrier family 25 member 1			0	0	0.6	8		0.56	0.88	0
+1.0	0	47	0	COL13A1	1.4535E-19	collagen type XIII alpha 1 chain			0	0	0.6	5		0.57	0.79	0
+1.0	0	71	0	ALG14	6.9786E-5	ALG14 UDP-N-acetylglucosaminyltransferase subunit			0	0	0.6	7		0.63	0.63	0
+1.0	0	2727	0	PLEC	5.1065E-44	plectin			0	0	0.6	23		0.5	0.79	0
+1.0	0	365	0	PREPL	2.0518E-24	prolyl endopeptidase like			0	0	0.6	10		0.61	0.67	0
+1.0	0	239	0	SLC5A7	0.99733	solute carrier family 5 member 7			0	0	0.6	17		0.59	0.79	0
+1.0	0	165	0	ALG2	5.4769E-12	ALG2 alpha-1,3/1,6-mannosyltransferase			0	0	0.6	6		0.58	0.79	0
+1.0	0	75	0	SNAP25	0.99953	synaptosome associated protein 25			0	0	0.6	30		0.47	0.92	0
+1.0	0	192	0	CHD8	1.0	chromodomain helicase DNA binding protein 8			0	0	0.6	28		0.55	0.75	0
+1.0	0	24	0	RPH3A	1.8793E-5	rabphilin 3A			0	0	0.5	3		0.61	0.79	0
+1.0	0	544	0	C17orf107	4.6074E-4	chromosome 17 open reading frame 107	1997	2024	0	35	0.4	12		0.76	0.25	197
+1.0	0	0	0	LOC130060041		ATAC-STARR-seq lymphoblastoid silent region 8050	2001	2021	0	4	0.4	5		0.85	0.08	0
+1.0	0	0	0	LOC126806951		CDK7 strongly-dependent group 2 enhancer GRCh37_chr4:3486115-3487314	2006	2012	0	2	0.4	4		0.87	0.13	0
+1.0	0	29	0	MINK1	1.0	misshapen like kinase 1	2007	2007	0	1	0.4	6		0.64	0.67	24
+1.0	0	117	0	CHRNG	4.1944E-25	cholinergic receptor nicotinic gamma subunit	2006	2006	0	1	0.4	13		0.56	0.79	0
+	0	2821	0	RYR1	1.7594E-56	ryanodine receptor 1			0	0	0.4	80		0.45	0.88	2
+	0	0	0	GH-LCR		growth hormone locus control region			0	0	0.4	42		0.67	0.46	0
+	0	0	0	LOC130060040		ATAC-STARR-seq lymphoblastoid silent region 8049			0	0	0.4	4		0.87	0.08	0
+	0	106	0	TAPBPL	9.5601E-9	TAP binding protein like			0	0	0.4	5		0.8	0.29	1

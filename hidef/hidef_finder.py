@@ -241,7 +241,7 @@ def update_resolution_graph(G, new_resolution, neighborhood_size, neighbor_densi
     for v, vd in G.nodes(data=True):
         if v == nodename:
             continue
-        if abs(np.log10(vd['resolution']) - np.log10(new_resolution)) < neighborhood_size:
+        if np.abs(np.log10(vd['resolution']) - np.log10(new_resolution)) < neighborhood_size:
             G.add_edge(v, nodename)
     newly_padded = []
     for v, deg in G.degree():

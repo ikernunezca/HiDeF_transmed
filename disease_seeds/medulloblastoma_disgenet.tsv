@@ -1,0 +1,62 @@
+ei	N CTs	N variants g	N PMIDs Chemicals	Gene	pLI	Gene Full Name	First Ref.	Last Ref.	N Chemicals	N PMIDs	score	N diseases g	My Score	DSI g	DPI g	N variants gda
+1.0	1	10500	0	BRCA2	5.7691E-44	BRCA2 DNA repair associated	1995	2022	0	39	1.0	94		0.39	0.88	297
+0.9245283018867925	0	740	0	SUFU	1.0	SUFU negative regulator of hedgehog signaling	1996	2023	0	33	1.0	27		0.49	0.83	577
+0.9206349206349206	1	127	0	CTNNB1	1.0	catenin beta 1	1999	2002	0	3	1.0	99		0.31	0.88	7
+0.9333333333333333	1	2503	0	PTCH1	1.0	patched 1	2008	2009	0	3	1.0	78		0.41	0.88	1
+0.8888888888888888	1	619	0	ELP1	1.1155E-23	elongator acetyltransferase complex subunit 1	2001	2020	0	6	0.95	12		0.55	0.83	223
+0.8571428571428571	0	7315	0	APC	1.0	APC regulator of Wnt signaling pathway	1995	2018	0	3	0.95	120		0.38	0.88	2
+0.9771428571428571	2	7	0	MYC	1.0	MYC proto-oncogene, bHLH transcription factor	2009	2019	0	2	0.95	62		0.34	0.88	0
+1.0	1	20	0	GPR161	1.6729E-5	G protein-coupled receptor 161	2020	2020	0	1	0.9	5		0.64	0.79	10
+1.0	1	486	0	PTCH2	1.1875E-24	patched 2	1999	1999	0	1	0.9	15		0.57	0.71	44
+0.9487179487179487	1	30	0	SMO	5.2856E-6	smoothened, frizzled class receptor			0	0	0.9	33		0.45	0.88	0
+1.0	1	57	0	CDK6	0.99726	cyclin dependent kinase 6	2009	2013	0	2	0.85	32		0.46	0.88	0
+0.9090909090909091	1	2	0	ATOH1	0.17763	atonal bHLH transcription factor 1	2008	2008	0	1	0.85	8		0.61	0.5	0
+0.8888888888888888	2	66	0	ERBB2	0.059432	erb-b2 receptor tyrosine kinase 2	2010	2010	0	1	0.85	53		0.33	0.88	0
+0.9464285714285714	2	48	0	MYCN	0.99969	MYCN proto-oncogene, bHLH transcription factor	2009	2009	0	1	0.85	23		0.45	0.88	0
+1.0	1	319	0	STAT3	1.0	signal transducer and activator of transcription 3	2008	2008	0	1	0.85	98		0.32	0.88	0
+1.0	1	3229	0	DICER1	1.0	dicer 1, ribonuclease III			0	0	0.8	36		0.43	0.83	1
+0.6666666666666666	2	4610	0	TSC2	1.0	TSC complex subunit 2			0	0	0.8	78		0.43	0.88	0
+1.0	0	173	0	DDX3X		DEAD-box helicase 3 X-linked	2016	2016	0	1	0.75	30		0.48	0.88	0
+1.0	0	138	0	OTX2	0.9998	orthodenticle homeobox 2	2009	2009	0	1	0.75	41		0.51	0.88	0
+1.0	1	1700	0	RET	1.0	ret proto-oncogene			0	0	0.75	64		0.39	0.88	1
+1.0	0	1920	0	RB1	1.0	RB transcriptional corepressor 1			0	0	0.7	58		0.37	0.88	1
+1.0	0	28	0	BRD4	1.0	bromodomain containing 4	2013	2019	0	2	0.65	28		0.42	0.88	0
+0.875	0	1543	0	PDGFRA	1.0	platelet derived growth factor receptor alpha	2009	2009	0	1	0.65	42		0.42	0.83	0
+0.8888888888888888	0	7	0	HIC1	0.044185	HIC ZBTB transcriptional repressor 1	2008	2008	0	1	0.65	7		0.54	0.67	0
+0.875	0	50	0	RASSF1	2.1955E-12	Ras association domain family member 1	2011	2011	0	1	0.65	26		0.46	0.75	0
+1.0	0	4	0	GSTM1		glutathione S-transferase mu 1			0	0	0.65	182		0.39	0.92	0
+1.0	0	500	0	DNMT1	1.0	DNA methyltransferase 1	2009	2009	0	1	0.6	54		0.41	0.88	0
+1.0	0	0	0	PRAME	6.035E-5	PRAME nuclear receptor transcriptional regulator	2005	2005	0	1	0.6	12		0.49	0.75	0
+1.0	0	18	0	ESR2	5.8401E-10	estrogen receptor 2	2010	2010	0	1	0.6	51		0.4	0.88	0
+1.0	0	0	0	PRMT5	1.0	protein arginine methyltransferase 5	2019	2019	0	1	0.6	6		0.5	0.83	0
+1.0	0	2	0	CDK9	4.7357E-9	cyclin dependent kinase 9	2019	2019	0	1	0.55	4		0.51	0.83	0
+1.0	0	0	0	S100A4	0.16063	S100 calcium binding protein A4	2007	2007	0	1	0.55	12		0.46	0.88	0
+1.0	0	4	0	SKP2	0.94279	S-phase kinase associated protein 2	2009	2009	0	1	0.55	8		0.48	0.83	0
+1.0	0	0	0	GSTT1		glutathione S-transferase theta 1			0	0	0.55	151		0.42	0.88	0
+1.0	0	5	0	VAV1	1.0	vav guanine nucleotide exchange factor 1	2009	2009	0	1	0.5	17		0.55	0.88	0
+1.0	2	3	0	BRD2	1.0	bromodomain containing 2	2013	2013	0	1	0.5	12		0.44	0.88	0
+1.0	0	2	0	MYCL	0.63109	MYCL proto-oncogene, bHLH transcription factor	2009	2009	0	1	0.5	5		0.57	0.75	0
+1.0	0	10	0	PIK3CG	5.8535E-6	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma	2011	2011	0	1	0.5	15		0.5	0.83	0
+1.0	0	149	0	KAT6A	1.0	lysine acetyltransferase 6A	2009	2009	0	1	0.5	18		0.51	0.83	0
+1.0	0	8	0	IRS2	4.0881E-7	insulin receptor substrate 2	2009	2009	0	1	0.5	8		0.52	0.83	0
+1.0	0	184	0	STRADA	0.0077019	STE20 related adaptor alpha	2011	2011	0	1	0.5	8		0.64	0.67	0
+1.0	0	3	0	SCG5	1.1532E-4	secretogranin V	2007	2007	0	1	0.5	5		0.59	0.63	0
+1.0	0	8	0	CCNE1	0.99996	cyclin E1	2009	2009	0	1	0.5	10		0.44	0.79	0
+1.0	0	66	0	KDM4B	1.0	lysine demethylase 4B	2009	2009	0	1	0.45	20		0.54	0.88	0
+1.0	0	32	0	KDM4C	1.0245E-12	lysine demethylase 4C	2009	2009	0	1	0.45	13		0.57	0.88	0
+1.0	0	0	0	LOC130004614		ATAC-STARR-seq lymphoblastoid silent region 2764	2002	2023	0	10	0.4	6		0.85	0.17	0
+1.0	0	0	0	LOC126806658		BRD4-independent group 4 enhancer GRCh37_chr3:41265899-41267098	1999	2000	0	2	0.4	20		0.73	0.38	0
+1.0	0	27	0	BRD3	0.99997	bromodomain containing 3	2013	2013	0	1	0.4	6		0.61	0.83	0
+1.0	0	319	0	MPL	3.1989E-21	MPL proto-oncogene, thrombopoietin receptor	2009	2009	0	1	0.4	18		0.49	0.71	0
+1.0	0	37	0	L3MBTL3	1.0	L3MBTL histone methyl-lysine binding protein 3	2009	2009	0	1	0.4	4		0.69	0.58	0
+1.0	0	1	0	SMYD4	4.6115E-21	SET and MYND domain containing 4	2009	2009	0	1	0.4	3		0.72	0.33	0
+1.0	0	1	0	S100A10	0.53932	S100 calcium binding protein A10	2007	2007	0	1	0.4	14		0.53	0.75	0
+1.0	0	1	0	SCML2		Scm polycomb group protein like 2	2009	2009	0	1	0.4	3		0.81	0.29	0
+1.0	0	538	0	EHMT1	1.0	euchromatic histone lysine methyltransferase 1	2009	2009	0	1	0.4	23		0.49	0.88	0
+1.0	0	0	0	S100A6	0.012425	S100 calcium binding protein A6	2007	2007	0	1	0.4	8		0.48	0.83	0
+1.0	0	9	0	L3MBTL2	1.9274E-5	L3MBTL histone methyl-lysine binding protein 2	2009	2009	0	1	0.4	4		0.66	0.63	0
+1.0	0	41	0	FLI1	0.99996	Fli-1 proto-oncogene, ETS transcription factor	2009	2009	0	1	0.4	18		0.46	0.83	0
+	0	495	0	LOC100507346		uncharacterized LOC100507346			0	0	0.4	13		0.76	0.38	1
+	0	0	0	LOC126806659		BRD4-independent group 4 enhancer GRCh37_chr3:41274918-41276117			0	0	0.4	14		0.76	0.46	0
+	0	2032	0	WRN	7.6966E-34	WRN RecQ like helicase			0	0	0.4	22		0.51	0.79	1
+	0	1346	0	BAP1	1.0	BRCA1 associated deubiquitinase 1			0	0	0.4	65		0.44	0.83	1
