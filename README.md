@@ -1,9 +1,3 @@
-# HiDeF (Hierarchical community Decoding Framework)
-[![Documentation Status](https://readthedocs.org/projects/hidef/badge/?version=latest)](https://hidef.readthedocs.io/en/latest/?badge=latest)
-[![Downloads](https://pepy.tech/badge/hidef/month)](https://pepy.tech/project/hidef)
-
-<img src="https://github.com/fanzheng10/HiDeF/blob/master/fig1.png?raw=true" width="400">
-
 ## Introduction
 
 HiDeF is a method for robustly resolving the hierarchical structures of networks based on multiscale community detection and the concepts of persistent homology. 
@@ -12,77 +6,47 @@ HiDeF is described in the following manuscript:
 
 Zheng, F., Zhang, S., Churas, C. et al., [HiDeF: identifying persistent structures in multiscale ‘omics data](https://doi.org/10.1186/s13059-020-02228-4). Genome Biol 22, 21 (2021).
 
-## Updates
+## Installation 
 
-- `1.1.5` Fixed bug where ``_tmp`` edge list temp files collide if multiple instances of ``hidef_finder.py`` are run on same machine. 
-          Made small fix to ``jaccard_matrix`` to handle scipy breaking [change](https://github.com/fanzheng10/HiDeF/commit/3dc6225cc67e59126b5b168996fb9718ea73d264)  
-          
-- `1.1.4` Add [Colab notebooks](https://github.com/fanzheng10/HiDeF/blob/master/analysis/protein_interaction_network_app.ipynb) allowing quick exploration of HiDeF results - now applicable to models based on protein-protein interaction network.  
-- `1.1.3` Stable release around the time of paper publication, the first version available with `pip`.  
+Clone / download the repository and use `uv sync` to install the dependencies. The *pyproject.toml* file indicates the dependencies and versions of the packages needed for hidef to run correctly.
 
-## Installation (Python package)
+## Repo structure
 
-With pip:  
-`pip install hidef`
-
-From source:  
-`python setup.py install`
+- Directories for hidef_*.ipynb runs: 
+    - `disease_seeds`: Some input files with seed genes for a bunch of diseases downloaded from DisGeNET.
+    - `example_ppi`: Some example ppi files to use as input when running hidef
+    - `output_examples`: Intended as the directory for storing hidef run outputs.
 
 ## Usage
-
-### Running HiDeF from Cytoscape
-
-Best for small/medium networks < 10k nodes and < 50k edges.
-
-HiDeF has been fully integrated with the [Cytoscape](https://cytoscape.org/) platform, via our recently published [Community Detection APplication and Service (CDAPS)](https://doi.org/10.1371/journal.pcbi.1008239) framework.
-
-With this option users can access unique features in the CDAPS framework, including (1) interacting with the source network to visualize the subnetwork of any detected community (2) performing gene set enrichment analysis (when the vertices of the source network are proteins/genes) (3) sharing the models via the [NDEx](http://www.ndexbio.org/) database.
 
 ### Running HiDeF as a command-line tool
 
 First, install the package as instructed above.
 
-Using the codes in this repository, HiDeF can be used as a command-line tool. There are two main components of the scripts: `hidef_finder.py` and `weaver.py`.
+The repo is organized so HiDeF can be used is used as a command-line tool.
 
-To sweep the resolution profile and generate an optimized hierarchy based on pan-resolution community persistence, run the following command in a terminal: 
+To sweep the resolution profile and generate an optimized hierarchy based on pan-resolution community persistence, run a command like this in a terminal, inside the repo directory: 
 
-`python hidef_finder.py --g $graph --maxres $n --o $out [--options]`
+`uv run python hidef/hidef_finder.py --g example_ppi/chloe_ppi.tsv --o output_examples/test_run_1_ --k 10 --minres 0.001 --maxres 200 --numthreads 20`
 
-- `$graph`: a tab delimited file with 2-3 columns: nodeA, nodeB, weight (optional).
-- `$maxres`: the upper limit of the sampled range of the resolution parameter.
-- `$out`: a prefix string for the output files.  
+- `--g"`: the input graph file, with no headers
+- `--o`: output file prefix
+- `--minres`: Starting modularity resolution value for sweeping process
+- `--maxres`: Maximum of resolution to be explored
+- `--k`: Denotes a threshold for considering a community as persistent across the sweep. The higher the value, less persistent communities will be found (more strict). Normally, increasing the maximum resolution would mean for searching for a new k value as more community structures are analyzed and therefore the percentage of persistence changes. Low values may render interactions between same level communities as a result of a *too relaxed* criterion, which should not be allowed. If this happens increase k. After a number of tests k=10 emerged as a good equlibrium point for max_resolution 200.
+- `--numthreads`: cpu count for Parallel processing
 
 Other auxiliary parameters are explained in the manuscript.
 
+You have output files for runs between 0.001 and 200 with k= 5, 10 and 20 in the `output_examples` repo.
 
 #### Outputs
 - `$out.nodes`: A TSV file describing the content (nodes in the input network) of each community. The last column of this file contains the persistence of each community.  
 - `$out.edges`: A TSV file describing the parent-child relationships of communities in the hierarchy. The parent communities are in the 1st column and the children communities are in the 2nd column.  
 - `$out.gml`: A file in the GML format that can be opened in Cytoscape to visualize the hierarchy (using "yFiles hierarchic layout" in Cytoscape)
 
+This output files are afterwards used for 
 
-### Using HiDeF as a python package
+### Analysing disease data over the hierarchy structure
 
-For documents, please see [https://hidef.readthedocs.io](https://hidef.readthedocs.io).
-
-The following example shows how to build a hierarchical view of a network based on pre-computed communities, by using HiDeF as a Python package. This workflow only involves `weaver.py`.
-
-First, the user needs to provide the clustering results on these data points. These results may be obtained from any multilevel clustering algorithm of the user's choice. In this example, suppose we have 8 data points and define 7 ways of partitioning them (in a Python terminal), 
-
-```
-P = ['11111111',
-  '11111100',
-  '00001111',
-  '11100000',
-  '00110000',
-  '00001100',
-  '00000011']
-```
-
-Then the hierarchical view can be obtained by
-
-```
-from hidef import weaver
-wv = weaver.Weaver()
-H = wv.weave(P, cutoff=1.0)
-```
+The disease specific notebooks analyse the disease information across the hierarchy. Basically, imports the relevant hidef output files, identify clusters of the hiearchy with disease genes, performs a fisher test to identify significantly enriched persistent communities and provides simple enrichr GSEA for those communities.

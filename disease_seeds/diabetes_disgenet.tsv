@@ -1,0 +1,89 @@
+ei	N CTs	N variants g	N PMIDs Chemicals	Gene	pLI	Gene Full Name	First Ref.	Last Ref.	N Chemicals	N PMIDs	score	N diseases g	My Score	DSI g	DPI g	N variants gda
+0.8676569885212694	494	66	0	INS	0.019763	insulin	1981	2010	0	10	1.0	98		0.36	0.92	3
+0.9142857142857143	2	141	3	TCF7L2	0.99541	transcription factor 7 like 2	2009	2013	4	3	1.0	38		0.46	0.88	8
+0.9328859060402684	2	250	1	KCNJ11	0.0015562	potassium inwardly rectifying channel subfamily J member 11	2008	2012	1	2	1.0	30		0.51	0.79	7
+0.896551724137931	12	28	0	SLC30A8	1.2445E-5	solute carrier family 30 member 8	2010	2010	0	1	1.0	3		0.6	0.83	3
+0.9202453987730062	4	584	0	GCK	7.6033E-7	glucokinase	2017	2017	0	1	1.0	27		0.51	0.83	4
+0.9622641509433962	1	877	0	ABCC8	8.7501E-33	ATP binding cassette subfamily C member 8	2008	2008	0	1	1.0	50		0.5	0.83	4
+0.9486166007905138	4	125	0	PPARG	0.21172	peroxisome proliferator activated receptor gamma	2005	2005	0	1	1.0	80		0.36	0.92	5
+0.9545454545454546	2	359	0	HNF1B	1.0	HNF1 homeobox B			0	0	1.0	46		0.45	0.88	5
+0.9680851063829787	2	540	0	WFS1	1.6322E-39	wolframin ER transmembrane glycoprotein			0	0	1.0	39		0.51	0.83	16
+0.8421052631578947	1	8	0	PTPN22		protein tyrosine phosphatase non-receptor type 22			0	0	1.0	46		0.45	0.83	0
+0.6845637583892618	4	46	0	APOE	2.5529E-4	apolipoprotein E			0	0	1.0	105		0.35	0.92	1
+0.8215767634854771	166	10	0	IL6	0.19935	interleukin 6			0	0	1.0	214		0.25	0.96	0
+0.9019607843137255	2	319	0	INSR	1.4394E-4	insulin receptor			0	0	1.0	32		0.42	0.88	0
+0.9523809523809523	4	505	0	HNF1A	0.99418	HNF1 homeobox A			0	0	1.0	40		0.41	0.88	10
+0.9807692307692307	3	3	0	SIRT1	0.89742	sirtuin 1	2014	2014	0	1	0.95	63		0.38	0.88	0
+0.9666666666666667	3	344	0	G6PD		glucose-6-phosphate dehydrogenase	2024	2024	0	1	0.95	35		0.43	0.88	1
+0.8956521739130435	38	6	0	ADIPOQ	3.5736E-9	adiponectin, C1Q and collagen domain containing	2003	2003	0	1	0.95	44		0.41	0.92	0
+0.7348484848484849	4	211	0	ACE	5.7955E-32	angiotensin I converting enzyme	2009	2009	0	1	0.95	124		0.36	0.92	1
+0.8018018018018018	65	70	1	LEP	0.0070036	leptin	2015	2015	2	1	0.95	63		0.35	0.92	1
+1.0	4	17	0	GIPR	7.1956E-26	gastric inhibitory polypeptide receptor			0	0	0.95	6		0.57	0.79	0
+0.9166666666666666	0	98	0	CDKAL1	0.4808	CDKAL1 threonylcarbamoyladenosine tRNA methylthiotransferase			0	0	0.95	9		0.58	0.71	9
+0.9047619047619048	2	115	0	LEPR	8.8607E-5	leptin receptor	2003	2003	0	1	0.9	72		0.43	0.88	0
+0.9285714285714286	0	1080	1	KCNQ1	1.0639E-12	potassium voltage-gated channel subfamily Q member 1	2011	2011	1	1	0.9	53		0.48	0.88	3
+0.8928571428571429	1	196	0	FN1	1.0	fibronectin 1	2010	2010	0	1	0.9	40		0.38	0.88	0
+1.0	1	34	0	RAC1	0.99948	Rac family small GTPase 1	2013	2013	0	1	0.9	25		0.42	0.88	0
+0.9240506329113924	2	9	0	TLR4	4.0578E-4	toll like receptor 4			0	0	0.9	96		0.33	0.92	0
+0.8382352941176471	2	5	0	PON1	8.2563E-12	paraoxonase 1	2006	2009	0	2	0.85	93		0.42	0.92	0
+0.9090909090909091	3	9	0	IRS1	1.3176E-4	insulin receptor substrate 1	1999	1999	0	1	0.85	19		0.48	0.88	0
+0.8666666666666667	14	151	0	SOD1	0.011954	superoxide dismutase 1	2014	2014	0	1	0.85	94		0.37	0.96	0
+0.8928571428571429	6	6	0	CAT	1.6098E-8	catalase	2000	2000	0	1	0.85	98		0.39	0.96	0
+0.9090909090909091	2	8	1	CYP3A4	1.7872E-6	cytochrome P450 family 3 subfamily A member 4	2024	2024	1	1	0.85	46		0.44	0.83	1
+0.7619047619047619	9	45	0	POMC	3.3396E-10	proopiomelanocortin	2009	2009	0	1	0.85	116		0.37	0.92	0
+1.0	0	103	0	SLC19A2	1.9942E-6	solute carrier family 19 member 2			0	0	0.85	8		0.58	0.67	0
+1.0	0	7	0	ASIP	1.7622E-5	agouti signaling protein	1992	2015	0	2	0.8	25		0.57	0.75	0
+0.9397590361445783	0	9	1	PPARA	0.0034658	peroxisome proliferator activated receptor alpha	2013	2013	1	1	0.8	45		0.42	0.88	1
+1.0	0	4	0	PTGS2	1.0	prostaglandin-endoperoxide synthase 2	2005	2005	0	1	0.8	147		0.34	0.88	0
+0.8571428571428571	1	138	0	CYP11B2	1.3398E-10	cytochrome P450 family 11 subfamily B member 2			0	0	0.8	18		0.54	0.67	0
+1.0	0	7	0	ACP1	1.469E-7	acid phosphatase 1			0	0	0.8	15		0.48	0.83	0
+0.9545454545454546	0	41	0	RFX6	1.2357E-4	regulatory factor X6			0	0	0.8	8		0.64	0.54	1
+1.0	0	11	0	UCP3	7.8551E-8	uncoupling protein 3			0	0	0.8	11		0.61	0.75	0
+0.4444444444444444	0	124	0	HFE	9.9398E-10	homeostatic iron regulator			0	0	0.8	77		0.43	0.88	0
+0.9230769230769231	0	16	0	HMGCR	0.99941	3-hydroxy-3-methylglutaryl-CoA reductase			0	0	0.8	33		0.47	0.88	0
+1.0	0	272	0	CYBB		cytochrome b-245 beta chain	2013	2013	0	1	0.75	19		0.45	0.88	0
+1.0	0	7	0	NR1I3	3.1924E-9	nuclear receptor subfamily 1 group I member 3	2010	2010	0	1	0.75	14		0.44	0.88	0
+0.8148148148148148	0	4	1	CAPN10	1.201E-22	calpain 10	2010	2010	1	1	0.75	14		0.61	0.58	0
+0.8571428571428571	0	63	0	AGTR1	7.1609E-5	angiotensin II receptor type 1	2009	2009	0	1	0.75	41		0.43	0.92	1
+1.0	0	14	0	NR1I2	1.1818E-13	nuclear receptor subfamily 1 group I member 2	2010	2010	0	1	0.75	30		0.5	0.79	0
+1.0	0	376	0	CP	4.7415E-7	ceruloplasmin	2003	2003	0	1	0.75	41		0.48	0.88	0
+1.0	0	1	0	AOC3	4.3347E-15	amine oxidase copper containing 3	2012	2012	0	1	0.75	5		0.54	0.79	0
+0.6153846153846154	0	4	0	GSTM1		glutathione S-transferase mu 1			0	0	0.75	182		0.39	0.92	0
+1.0	1	1	0	SOD3	1.9833E-5	superoxide dismutase 3			0	0	0.75	24		0.51	0.92	0
+1.0	0	445	0	PAX6	1.0	paired box 6			0	0	0.75	58		0.45	0.83	0
+0.8461538461538461	0	81	0	KLF11	4.9744E-7	KLF transcription factor 11			0	0	0.75	8		0.57	0.79	1
+0.7692307692307693	0	10	1	CYP2C19	4.4942E-22	cytochrome P450 family 2 subfamily C member 19	2017	2017	1	1	0.7	82		0.46	0.92	0
+1.0	1	6	0	MAP3K5	0.99994	mitogen-activated protein kinase kinase kinase 5	2006	2006	0	1	0.7	8		0.49	0.83	0
+1.0	0	4	0	CYP1A1	8.9759E-18	cytochrome P450 family 1 subfamily A member 1			0	0	0.7	96		0.43	0.88	0
+0.8571428571428571	0	95	0	ITGA2	2.8962E-16	integrin subunit alpha 2			0	0	0.7	23		0.47	0.83	0
+1.0	0	149	0	CSF1R	0.97417	colony stimulating factor 1 receptor			0	0	0.7	28		0.43	0.88	0
+1.0	0	11	0	NAT2	0.11278	N-acetyltransferase 2			0	0	0.7	69		0.48	0.88	0
+0.5	0	1112	0	KIF1A	1.0	kinesin family member 1A	2013	2013	0	1	0.65	28		0.55	0.79	0
+1.0	0	18	0	ALPK1	1.2123E-32	alpha kinase 1	2016	2016	0	1	0.65	9		0.58	0.79	0
+1.0	0	378	0	CPT1A	2.6738E-9	carnitine palmitoyltransferase 1A	2009	2009	0	1	0.65	10		0.52	0.88	0
+1.0	0	96	1	KCNJ1	3.2031E-9	potassium inwardly rectifying channel subfamily J member 1	2013	2013	1	1	0.65	7		0.59	0.67	4
+0.7142857142857143	0	6	0	GNB3	3.7747E-9	G protein subunit beta 3	2009	2009	0	1	0.65	28		0.53	0.83	1
+1.0	0	37	0	ZFP57	9.4252E-4	ZFP57 zinc finger protein	2008	2008	0	1	0.65	4		0.53	0.83	0
+1.0	0	13	0	THBS2	0.99983	thrombospondin 2	2013	2013	0	1	0.65	7		0.49	0.79	0
+0.8333333333333334	0	3	0	ADRB1	0.1116	adrenoceptor beta 1	2008	2008	0	1	0.65	28		0.47	0.83	0
+1.0	0	5	1	CRTC2	0.96531	CREB regulated transcription coactivator 2	2017	2017	2	1	0.65	4		0.5	0.83	1
+1.0	0	7	0	CTSB	4.1829E-25	cathepsin B			0	0	0.65	12		0.44	0.88	0
+1.0	0	100	0	SPINK1	0.2242	serine peptidase inhibitor Kazal type 1			0	0	0.65	13		0.49	0.79	1
+1.0	0	1306	0	MEN1	1.0	menin 1			0	0	0.65	48		0.44	0.88	1
+0.8	0	0	0	GSTT1		glutathione S-transferase theta 1			0	0	0.65	151		0.42	0.88	0
+1.0	0	3	2	CYP3A5	7.9872E-11	cytochrome P450 family 3 subfamily A member 5	2023	2024	1	2	0.6	52		0.49	0.83	1
+0.6666666666666666	0	367	0	PMM2	5.4682E-8	phosphomannomutase 2	2020	2020	0	1	0.6	17		0.52	0.83	2
+0.5	0	8	0	CYP2C9	1.1489E-20	cytochrome P450 family 2 subfamily C member 9			0	0	0.6	46		0.49	0.88	0
+1.0	0	124	0	ZBTB20	1.0	zinc finger and BTB domain containing 20			0	0	0.6	13		0.52	0.88	0
+0.0	0	5	0	KIF5B	0.99973	kinesin family member 5B	2013	2013	0	1	0.55	23		0.57	0.83	0
+1.0	0	381	0	ATP6		ATP synthase F0 subunit 6	2008	2008	0	1	0.55	47		0.51	0.79	0
+1.0	0	16	0	EIF2S3		eukaryotic translation initiation factor 2 subunit gamma			0	0	0.55	2		0.59	0.83	0
+1.0	0	301	1	POR	8.6814E-14	cytochrome p450 oxidoreductase	2013	2013	1	1	0.5	27		0.49	0.88	1
+1.0	0	3	0	MT2A	0.044744	metallothionein 2A	2016	2016	0	1	0.5	27		0.52	0.88	0
+1.0	0	9	1	PLEKHH2	4.4813E-23	pleckstrin homology, MyTH4 and FERM domain containing H2	2018	2018	2	1	0.45	1		0.72	0.5	2
+1.0	0	287	0	ND4L		NADH dehydrogenase subunit 4L			0	0	0.45	18		0.65	0.58	0
+1.0	0	18	0	NCF1	0.82043	neutrophil cytosolic factor 1	2013	2013	0	1	0.4	17		0.47	0.88	0
+1.0	0	23	0	KSR2	1.0	kinase suppressor of ras 2	2013	2013	0	1	0.4	9		0.64	0.75	1
+	0	26	0	ARMC9	5.283E-22	armadillo repeat containing 9			0	0	0.4	6		0.56	0.79	1
+	0	118	0	INS-IGF2		INS-IGF2 readthrough			0	0	0.4	31		0.68	0.46	3
+	0	137	0	PTPRD	1.0	protein tyrosine phosphatase receptor type D			0	0	0.4	13		0.52	0.92	0

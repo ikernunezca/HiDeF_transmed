@@ -1,0 +1,46 @@
+ei	N CTs	N variants g	N PMIDs Chemicals	Gene	pLI	Gene Full Name	First Ref.	Last Ref.	N Chemicals	N PMIDs	score	N diseases g	My Score	DSI g	DPI g	N variants gda
+1.0	0	10377	0	TTN	3.0476E-90	titin			0	0	0.8	118		0.45	0.88	6
+1.0	0	1032	0	SCN4A	1.9281E-10	sodium voltage-gated channel alpha subunit 4			0	0	0.8	46		0.52	0.83	1
+1.0	0	6	0	HACD1	1.3884E-15	3-hydroxyacyl-CoA dehydratase 1	1999	2021	0	9	0.75	4		0.56	0.83	0
+1.0	0	1249	0	CACNA1S	5.7202E-18	calcium voltage-gated channel subunit alpha1 S	1998	2021	0	7	0.75	19		0.57	0.83	1
+0.9782608695652174	0	2821	0	RYR1	1.7594E-56	ryanodine receptor 1	1999	2019	0	6	0.75	80		0.45	0.88	6
+1.0	0	285	0	ACTA1	3.06E-6	actin alpha 1, skeletal muscle	2020	2022	0	3	0.75	28		0.52	0.79	5
+0.9444444444444444	0	106	0	TPM2	6.5531E-6	tropomyosin 2			0	0	0.75	16		0.48	0.83	0
+1.0	0	438	0	ITGA7	5.1167E-16	integrin subunit alpha 7			0	0	0.75	7		0.56	0.83	0
+1.0	0	2	0	MYL1	2.3918E-4	myosin light chain 1	2018	2018	0	1	0.7	3		0.62	0.75	0
+1.0	0	4157	0	NEB	3.8542E-52	nebulin			0	0	0.7	24		0.57	0.75	3
+1.0	0	110	0	STAC3	6.0056E-6	SH3 and cysteine rich domain 3	2013	2017	0	3	0.65	5		0.62	0.67	1
+0.8333333333333334	0	41	0	TNNT3	2.5107E-8	troponin T3, fast skeletal type	2018	2018	0	1	0.65	8		0.51	0.83	0
+1.0	0	2401	0	MYH7	1.514E-19	myosin heavy chain 7	2016	2016	0	1	0.65	79		0.5	0.83	3
+1.0	0	16	0	JPH1	0.99998	junctophilin 1			0	0	0.6	10		0.64	0.67	3
+1.0	0	105	0	SPEG	1.3984E-5	striated muscle enriched protein kinase			0	0	0.6	6		0.61	0.71	0
+1.0	0	1170	0	COL6A3	1.9429E-13	collagen type VI alpha 3 chain			0	0	0.55	38		0.51	0.79	0
+1.0	0	508	0	FKRP	6.082E-10	fukutin related protein			0	0	0.55	34		0.52	0.75	0
+1.0	0	12	0	FXR1	0.9894	FMR1 autosomal homolog 1			0	0	0.55	9		0.56	0.79	2
+1.0	0	340	0	LARGE1	5.5141E-4	LARGE xylosyl- and glucuronyltransferase 1			0	0	0.55	16		0.51	0.88	0
+1.0	0	1044	0	LMNA	0.99995	lamin A/C			0	0	0.55	103		0.4	0.88	0
+1.0	0	195	0	CHKB	5.0096E-13	choline kinase beta			0	0	0.5	9		0.47	0.92	0
+1.0	0	36	0	DNA2	6.4236E-27	DNA replication helicase/nuclease 2			0	0	0.5	23		0.58	0.75	1
+1.0	0	705	0	RYR3	1.0	ryanodine receptor 3	1996	2023	0	9	0.45	15		0.56	0.79	0
+1.0	0	169	0	GMPPB	2.0044E-12	GDP-mannose pyrophosphorylase B			0	0	0.45	21		0.55	0.83	0
+1.0	0	647	0	MYPN	1.0732E-5	myopalladin	2015	2024	0	2	0.4	23		0.58	0.67	1
+1.0	0	502	0	GNE	1.6532E-6	glucosamine (UDP-N-acetyl)-2-epimerase/N-acetylmannosamine kinase	2022	2022	0	1	0.4	13		0.55	0.79	0
+1.0	0	99	0	EXOSC3	2.9077E-5	exosome component 3	2019	2019	0	1	0.4	14		0.58	0.75	1
+	0	18	0	ALG14-AS1		ALG14 antisense RNA 1			0	0	0.4	4		0.87	0.08	1
+	0	640	0	MHRT		myosin heavy chain associated RNA transcript			0	0	0.4	33		0.67	0.38	2
+	0	3	0	COL6A6	1.8987E-43	collagen type VI alpha 6 chain			0	0	0.4	2		0.65	0.75	0
+	0	71	0	ALG14	6.9786E-5	ALG14 UDP-N-acetylglucosaminyltransferase subunit			0	0	0.4	7		0.63	0.63	2
+	0	233	0	AP4E1	4.1275E-4	adaptor related protein complex 4 subunit epsilon 1			0	0	0.4	18		0.62	0.67	1
+	0	24	0	INPP5K	4.5926E-11	inositol polyphosphate-5-phosphatase K			0	0	0.4	9		0.64	0.67	1
+	0	549	0	TRPV4	5.8862E-13	transient receptor potential cation channel subfamily V member 4			0	0	0.4	61		0.46	0.88	1
+	0	38	0	ASCC3	4.7255E-25	activating signal cointegrator 1 complex subunit 3			0	0	0.4	5		0.64	0.75	2
+	0	231	0	CHRNA1	4.9493E-9	cholinergic receptor nicotinic alpha 1 subunit			0	0	0.4	19		0.58	0.79	1
+	0	0	0	LOC129930989		ATAC-STARR-seq lymphoblastoid active region 1353			0	0	0.4	4		0.87	0.08	0
+	0	3	0	SRPK3		SRSF protein kinase 3			0	0	0.4	6		0.67	0.46	0
+	0	11	0	DNAJB4	0.679	DnaJ heat shock protein family (Hsp40) member B4			0	0	0.4	3		0.6	0.67	0
+	0	747	0	COL6A2	4.7927E-23	collagen type VI alpha 2 chain			0	0	0.4	27		0.53	0.79	1
+	0	1123	0	ZFYVE26	1.6227E-34	zinc finger FYVE-type containing 26			0	0	0.4	17		0.59	0.63	1
+	0	6834	0	TTN-AS1		TTN antisense RNA 1			0	0	0.4	77		0.56	0.83	1
+	0	0	0	GH-LCR		growth hormone locus control region			0	0	0.4	42		0.67	0.46	0
+	0	495	0	KANSL1	1.0	KAT8 regulatory NSL complex subunit 1			0	0	0.4	15		0.5	0.83	1
+	0	3	0	MYO15B		myosin XVB			0	0	0.4	1		0.82	0.21	2
